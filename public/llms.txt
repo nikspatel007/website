@@ -1,0 +1,19 @@
+# Nik Patel
+
+> Software engineer, pilot, DJ, and maker.
+
+## About
+Personal portfolio and blog showcasing software projects, creative work, and interests.
+
+## Sections
+- /about - Background and journey
+- /projects - Software and creative work
+- /blog - Technical and creative writing
+- /hobbies - Aviation, music, dance, travel
+
+## Contact
+- GitHub: https://github.com/nikpatel
+- LinkedIn: https://linkedin.com/in/nikpatel
+
+## Content
+Content is organized by section. Each project and blog post is available as markdown.

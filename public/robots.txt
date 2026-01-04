@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nik-patel.com/sitemap.xml
