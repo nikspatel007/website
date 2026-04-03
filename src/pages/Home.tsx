@@ -147,7 +147,7 @@ export function Home() {
           </ScrollReveal>
 
           <div className="mt-12">
-            <ServicesGrid columns={3} />
+            <ServicesGrid columns={4} />
           </div>
 
           <ScrollReveal delay={0.3}>

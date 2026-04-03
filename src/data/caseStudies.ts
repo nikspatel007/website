@@ -7,7 +7,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'MCP-Powered Multi-Agent Orchestration Platform',
     client: 'Enterprise Clients',
     industry: 'technology',
-    services: ['ai-generative', 'software-engineering'],
+    services: ['autonomous-ai-agents', 'software-engineering'],
     challenge:
       'Organizations needed AI agents that could seamlessly interact with diverse tools, APIs, and data sources. Existing solutions lacked standardized protocols for agent-tool communication and cross-system orchestration.',
     solution:
@@ -27,7 +27,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'Executive AI Agent Platform for Business Operations',
     client: 'Enterprise Clients',
     industry: 'technology',
-    services: ['ai-generative', 'software-engineering'],
+    services: ['autonomous-ai-agents', 'software-engineering'],
     challenge:
       'Executive teams struggled to operationalize AI across sales, operations, and strategy. Existing tools were siloed, inconsistent, and unsafe for real business use.',
     solution:
@@ -47,7 +47,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'Healthcare AI Research & Clinical Applications',
     client: 'Healthcare Research Institutions',
     industry: 'healthcare',
-    services: ['ai-generative', 'data-science-ml'],
+    services: ['knowledge-systems', 'intelligent-automation'],
     challenge:
       'Healthcare organizations needed AI solutions grounded in rigorous research to improve patient outcomes, clinical decision-making, and operational efficiency—while meeting strict regulatory and ethical standards.',
     solution:
@@ -67,7 +67,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'AI Systems for Complex Problem Decomposition',
     client: 'Fortune 500 Companies',
     industry: 'enterprise',
-    services: ['ai-generative', 'data-science-ml'],
+    services: ['knowledge-systems', 'intelligent-automation'],
     challenge:
       'Enterprises faced intricate, multi-dimensional problems—supply chain optimization, resource allocation, strategic planning—that required breaking down complexity into manageable, solvable components.',
     solution:
@@ -87,7 +87,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'Patented Smart Building & Digital Twin Platform',
     client: 'PropTech Enterprise',
     industry: 'proptech',
-    services: ['ai-generative', 'data-engineering', 'software-engineering'],
+    services: ['intelligent-automation', 'software-engineering'],
     challenge:
       'Generic LLMs failed to understand the complexity of physical spaces, access control, and building automation systems. Smart building data was fragmented across hardware vendors, protocols, and legacy systems.',
     solution:
@@ -107,7 +107,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'AI-Assisted Integration & Protocol Translation Engine',
     client: 'Enterprise Clients',
     industry: 'technology',
-    services: ['ai-generative', 'data-engineering'],
+    services: ['knowledge-systems', 'intelligent-automation'],
     challenge:
       'Enterprises needed to integrate dozens of legacy systems and hardware devices—each with different protocols, schemas, and data semantics. Manual integration was slow and error-prone.',
     solution:
@@ -127,7 +127,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'Agentic Workflow Automation with Human-in-the-Loop',
     client: 'Mid-Market to Enterprise',
     industry: 'technology',
-    services: ['ai-generative', 'software-engineering'],
+    services: ['autonomous-ai-agents', 'software-engineering'],
     challenge:
       'Businesses needed AI that could autonomously handle complex workflows while maintaining human oversight for critical decisions. Existing automation was either too rigid or too unpredictable.',
     solution:
@@ -147,7 +147,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'Secure & Compliant Enterprise AI Platforms',
     client: 'Fortune-Level Enterprises',
     industry: 'enterprise',
-    services: ['ai-generative', 'software-engineering'],
+    services: ['autonomous-ai-agents', 'software-engineering'],
     challenge:
       'Large enterprises wanted AI capabilities but were blocked by security, compliance, and governance concerns. Procurement and security approvals stalled AI initiatives.',
     solution:
@@ -167,7 +167,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'AI-Powered Executive Decision Support',
     client: 'C-Suite Leaders',
     industry: 'enterprise',
-    services: ['ai-generative', 'data-science-ml'],
+    services: ['knowledge-systems', 'intelligent-automation'],
     challenge:
       'Executives were overwhelmed by dashboards, reports, and disconnected data sources that slowed decision-making. Critical insights were buried in noise.',
     solution:
@@ -187,7 +187,7 @@ export const caseStudies: CaseStudy[] = [
     title: 'From AI Concept to Production at Scale',
     client: 'Growth-Stage Companies',
     industry: 'technology',
-    services: ['ai-generative', 'software-engineering'],
+    services: ['autonomous-ai-agents', 'software-engineering'],
     challenge:
       'Many organizations stalled at AI demos and prototypes. Ideas never made it to production, and investments failed to generate ROI.',
     solution:

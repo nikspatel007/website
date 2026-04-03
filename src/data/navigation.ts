@@ -5,9 +5,10 @@ export const mainNavigation: NavItem[] = [
     label: 'Services',
     href: '/services',
     children: [
-      { label: 'AI Agent Development', href: '/services/ai-agents' },
-      { label: 'LLM & RAG Solutions', href: '/services/llm-solutions' },
-      { label: 'AI Workflow Automation', href: '/services/ai-automation' },
+      { label: 'Autonomous AI Agents', href: '/services/autonomous-ai-agents' },
+      { label: 'Knowledge Systems', href: '/services/knowledge-systems' },
+      { label: 'Intelligent Automation', href: '/services/intelligent-automation' },
+      { label: 'Software & Systems Engineering', href: '/services/software-engineering' },
     ],
   },
   { label: 'Case Studies', href: '/case-studies' },
@@ -17,9 +18,10 @@ export const mainNavigation: NavItem[] = [
 
 export const footerNavigation = {
   services: [
-    { label: 'AI Agent Development', href: '/services/ai-agents' },
-    { label: 'LLM & RAG Solutions', href: '/services/llm-solutions' },
-    { label: 'AI Workflow Automation', href: '/services/ai-automation' },
+    { label: 'Autonomous AI Agents', href: '/services/autonomous-ai-agents' },
+    { label: 'Knowledge Systems', href: '/services/knowledge-systems' },
+    { label: 'Intelligent Automation', href: '/services/intelligent-automation' },
+    { label: 'Software & Systems Engineering', href: '/services/software-engineering' },
   ],
   company: [
     { label: 'About Us', href: '/about' },
