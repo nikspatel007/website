@@ -29,24 +29,24 @@ export const services: Service[] = [
     ],
     process: [
       {
-        title: 'Discovery',
+        title: 'Advise',
         description:
-          'We map your workflows to identify where autonomous agents can deliver the most impact.',
+          'We assess your workflows and identify where autonomous agents can deliver the highest impact.',
       },
       {
-        title: 'Architecture',
+        title: 'Align',
         description:
-          'Design agent systems with the right tools, memory, and orchestration patterns.',
+          'Design the agent architecture, select the right tools, and define success metrics with your team.',
       },
       {
-        title: 'Build & Test',
+        title: 'Build',
         description:
           'Develop agents with rigorous testing, guardrails, and human-in-the-loop checkpoints.',
       },
       {
-        title: 'Deploy & Monitor',
+        title: 'Deliver',
         description:
-          'Production deployment with full observability, logging, and continuous improvement.',
+          'Production deployment with full observability, documentation, and ongoing support.',
       },
     ],
     faqs: [
@@ -95,24 +95,24 @@ export const services: Service[] = [
     ],
     process: [
       {
-        title: 'Use Case',
+        title: 'Advise',
         description:
-          'Identify the highest-impact LLM opportunity and validate feasibility with a proof-of-concept.',
+          'Identify the highest-impact LLM opportunity and validate feasibility with your data.',
       },
       {
-        title: 'Prototype',
+        title: 'Align',
         description:
-          'Build a working prototype with your actual data to demonstrate value and refine requirements.',
+          'Define the RAG architecture, model selection, and success criteria with your team.',
       },
       {
-        title: 'Production',
+        title: 'Build',
         description:
-          'Scale to production with proper guardrails, caching, cost optimization, and monitoring.',
+          'Develop and test with your actual data, iterating to production-grade quality.',
       },
       {
-        title: 'Evolve',
+        title: 'Deliver',
         description:
-          'Continuously improve with user feedback, new models, and expanded capabilities.',
+          'Deploy with guardrails, monitoring, cost optimization, and ongoing model improvements.',
       },
     ],
     faqs: [
@@ -161,24 +161,24 @@ export const services: Service[] = [
     ],
     process: [
       {
-        title: 'Audit',
+        title: 'Advise',
         description:
           'Map your current workflows, identify bottlenecks, and quantify automation opportunities.',
       },
       {
-        title: 'Design',
+        title: 'Align',
         description:
-          'Architect AI-powered workflows with the right balance of automation and human oversight.',
+          'Design AI-powered workflows with the right balance of automation and human oversight.',
       },
       {
-        title: 'Implement',
+        title: 'Build',
         description:
           'Build integrations, deploy agents, and connect your tools into seamless automated pipelines.',
       },
       {
-        title: 'Optimize',
+        title: 'Deliver',
         description:
-          'Monitor performance, reduce costs, and continuously improve automation accuracy.',
+          'Launch to production, monitor performance, and continuously improve automation accuracy.',
       },
     ],
     faqs: [
