@@ -34,19 +34,19 @@ export const services: Service[] = [
           'We assess your workflows and identify where autonomous agents can deliver the highest impact.',
       },
       {
-        title: 'Align',
-        description:
-          'Design the agent architecture, select the right tools, and define success metrics with your team.',
-      },
-      {
         title: 'Build',
         description:
           'Develop agents with rigorous testing, guardrails, and human-in-the-loop checkpoints.',
       },
       {
-        title: 'Deliver',
+        title: 'Launch',
         description:
-          'Production deployment with full observability, documentation, and ongoing support.',
+          'Production deployment with full observability, documentation, and seamless integration.',
+      },
+      {
+        title: 'Evolve',
+        description:
+          'Continuous improvement with new capabilities, better models, and expanding automation.',
       },
     ],
     faqs: [
@@ -100,19 +100,19 @@ export const services: Service[] = [
           'Identify the highest-impact LLM opportunity and validate feasibility with your data.',
       },
       {
-        title: 'Align',
-        description:
-          'Define the RAG architecture, model selection, and success criteria with your team.',
-      },
-      {
         title: 'Build',
         description:
           'Develop and test with your actual data, iterating to production-grade quality.',
       },
       {
-        title: 'Deliver',
+        title: 'Launch',
         description:
-          'Deploy with guardrails, monitoring, cost optimization, and ongoing model improvements.',
+          'Deploy with guardrails, monitoring, and cost optimization into your production environment.',
+      },
+      {
+        title: 'Evolve',
+        description:
+          'Ongoing model improvements, new capabilities, and expanding use cases across your organization.',
       },
     ],
     faqs: [
@@ -166,19 +166,19 @@ export const services: Service[] = [
           'Map your current workflows, identify bottlenecks, and quantify automation opportunities.',
       },
       {
-        title: 'Align',
-        description:
-          'Design AI-powered workflows with the right balance of automation and human oversight.',
-      },
-      {
         title: 'Build',
         description:
           'Build integrations, deploy agents, and connect your tools into seamless automated pipelines.',
       },
       {
-        title: 'Deliver',
+        title: 'Launch',
         description:
-          'Launch to production, monitor performance, and continuously improve automation accuracy.',
+          'Go live with full monitoring, performance tracking, and operational support.',
+      },
+      {
+        title: 'Evolve',
+        description:
+          'Continuously improve automation accuracy, expand coverage, and unlock new workflows.',
       },
     ],
     faqs: [

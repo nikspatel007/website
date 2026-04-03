@@ -13,32 +13,32 @@ import { getFeaturedCaseStudies } from '@/data/caseStudies'
 
 const methodology = [
   {
-    step: '01',
+    step: 'A',
     title: 'Advise',
     description:
-      'We assess your workflows, data, and operations to identify where AI agents can deliver the highest ROI. No guesswork — just clear, actionable recommendations.',
+      'We assess your workflows, data, and operations to find where AI agents can deliver the highest ROI.',
     icon: MessageSquare,
   },
   {
-    step: '02',
-    title: 'Align',
-    description:
-      'We define the agent architecture, select the right AI stack, and align on KPIs, timelines, and success criteria with your team.',
-    icon: Target,
-  },
-  {
-    step: '03',
+    step: 'B',
     title: 'Build',
     description:
-      'Our engineers build, test, and iterate on your AI agents with guardrails, human-in-the-loop checkpoints, and production-grade reliability.',
+      'Our engineers build, test, and iterate on your AI agents with guardrails and production-grade reliability.',
     icon: Hammer,
   },
   {
-    step: '04',
-    title: 'Deliver',
+    step: 'L',
+    title: 'Launch',
     description:
-      'We deploy to production with full monitoring, hand off documentation, and provide ongoing support to ensure your agents keep delivering results.',
+      'We deploy to production with full monitoring, documentation, and seamless integration into your operations.',
     icon: Rocket,
+  },
+  {
+    step: 'E',
+    title: 'Evolve',
+    description:
+      'We continuously improve your agents with new capabilities, better models, and expanding automation across your business.',
+    icon: Target,
   },
 ]
 
@@ -98,10 +98,10 @@ export function Home() {
                 Our Methodology
               </span>
               <h2 className="mt-4 text-3xl font-bold text-gray-900 lg:text-4xl">
-                Advise. Align. Build. Deliver.
+                The ABLE Framework
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-                A proven four-step methodology that turns AI ambition into production-ready agents.
+                Advise. Build. Launch. Evolve. A proven methodology for turning AI ambition into production reality.
               </p>
             </div>
           </ScrollReveal>
