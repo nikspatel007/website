@@ -1,15 +1,13 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, CheckCircle, MessageSquare, Target, Hammer, Rocket } from 'lucide-react'
+import { ArrowRight, CheckCircle, MessageSquare, Target, Hammer, Rocket, ExternalLink, BookOpen, Wrench } from 'lucide-react'
 import { SEO } from '@/components/SEO'
 import { Hero } from '@/components/sections/Hero'
 import { TrustLogos } from '@/components/sections/TrustLogos'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
-import { TestimonialsCarousel } from '@/components/sections/TestimonialsCarousel'
 import { CTABanner } from '@/components/sections/CTABanner'
-import { CaseStudyGrid } from '@/components/case-studies/CaseStudyGrid'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
 import { Button } from '@/components/ui/button'
-import { getFeaturedCaseStudies } from '@/data/caseStudies'
+import { getFeaturedFrontier, type FrontierItem } from '@/data/frontier'
 
 const methodology = [
   {
@@ -65,8 +63,20 @@ const whyCodeTicks = [
   },
 ]
 
+const typeIcon = {
+  blog: BookOpen,
+  'worth-reading': ExternalLink,
+  utility: Wrench,
+}
+
+const typeLabel = {
+  blog: 'Our Thinking',
+  'worth-reading': 'Worth Reading',
+  utility: 'Utility',
+}
+
 export function Home() {
-  const featuredCaseStudies = getFeaturedCaseStudies()
+  const featuredFrontier = getFeaturedFrontier()
 
   return (
     <>
@@ -223,62 +233,61 @@ export function Home() {
         </div>
       </section>
 
-      {/* Featured Case Studies */}
+      {/* From the Frontier */}
       <section className="bg-gray-50 py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center">
               <span className="inline-block rounded-full bg-primary-100 px-4 py-1.5 text-sm font-medium text-primary-700">
-                Results
+                From the Frontier
               </span>
               <h2 className="mt-4 text-3xl font-bold text-gray-900 lg:text-4xl">
-                AI Agents in Production
+                From the Frontier
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-                Real agents delivering real results for real businesses.
+                What we're thinking, building, and reading at the edge of AI.
               </p>
             </div>
           </ScrollReveal>
 
-          <div className="mt-12">
-            <CaseStudyGrid caseStudies={featuredCaseStudies} />
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredFrontier.map((item: FrontierItem, index: number) => {
+              const Icon = typeIcon[item.type]
+              return (
+                <ScrollReveal key={item.id} delay={index * 0.1}>
+                  <a
+                    href={item.url}
+                    target={item.url.startsWith('http') ? '_blank' : undefined}
+                    rel={item.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    className="group block rounded-xl border border-gray-200 bg-white p-6 transition-all hover:shadow-md hover:border-primary-200"
+                  >
+                    <div className="flex items-center gap-2 text-sm text-gray-500">
+                      <Icon className="h-4 w-4" />
+                      <span>{typeLabel[item.type]}</span>
+                      <span className="ml-auto text-xs">{item.source}</span>
+                    </div>
+                    <h3 className="mt-3 text-lg font-semibold text-gray-900 group-hover:text-primary-600 transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="mt-2 text-sm text-gray-600 leading-relaxed">
+                      {item.description}
+                    </p>
+                  </a>
+                </ScrollReveal>
+              )
+            })}
           </div>
 
-          <ScrollReveal delay={0.3}>
+          <ScrollReveal delay={0.4}>
             <div className="mt-12 text-center">
               <Button variant="outline" size="lg" asChild>
-                <Link to="/case-studies">
-                  View All Case Studies
+                <Link to="/frontier">
+                  See Everything
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </div>
           </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="relative overflow-hidden py-16 lg:py-24">
-        <div className="absolute inset-0 bg-gradient-to-b from-white via-primary-50/30 to-white" />
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-px w-2/3 bg-gradient-to-r from-transparent via-primary-300 to-transparent" />
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <ScrollReveal>
-            <div className="text-center">
-              <span className="inline-block rounded-full bg-primary-100 px-4 py-1.5 text-sm font-medium text-primary-700">
-                Testimonials
-              </span>
-              <h2 className="mt-4 text-3xl font-bold text-gray-900 lg:text-4xl">
-                What Our Clients Say
-              </h2>
-              <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-                Hear from the businesses running AI agents built by CodeTicks.
-              </p>
-            </div>
-          </ScrollReveal>
-
-          <div className="mt-14">
-            <TestimonialsCarousel />
-          </div>
         </div>
       </section>
 
