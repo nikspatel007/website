@@ -138,10 +138,10 @@ export function Home() {
                 What We Build
               </span>
               <h2 className="mt-4 text-3xl font-bold text-gray-900 lg:text-4xl">
-                AI Agent Solutions
+                What We Build
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
-                From autonomous agents to RAG pipelines to workflow automation — we build the AI that runs your business.
+                Autonomous agents, knowledge systems, intelligent automation, and the software to run it all.
               </p>
             </div>
           </ScrollReveal>
