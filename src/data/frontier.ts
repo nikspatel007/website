@@ -10,71 +10,61 @@ export interface FrontierItem {
 }
 
 export const frontierItems: FrontierItem[] = [
-  // Our Thinking (blogs from Nik and TroopX)
+  // Our Thinking
   {
-    id: 'multi-agent-claude',
+    id: 'agents-learn-on-the-job',
     type: 'blog',
-    title: 'Building a Multi-Agent System with Claude',
+    title: 'From Smart to Experienced: How Agents Learn On The Job',
     description:
-      'How we built a production-ready multi-agent system using Claude\'s tool use capabilities.',
-    url: 'https://blog.nik-patel.com/posts/multi-agent-claude',
+      'Chairing a board meeting where CEO and CTO agents debated strategy. Both came prepared with their own assessments and priorities.',
+    url: 'https://blog.nik-patel.com/from-smart-to-experienced-how-agents-learn-on-the-job/',
     source: 'Nik Patel',
-    date: 'May 2025',
+    date: 'Feb 2026',
     featured: true,
   },
   {
-    id: 'autonomous-agents-enterprise',
+    id: 'agent-fatigue',
     type: 'blog',
-    title: 'The Rise of Autonomous AI Agents in Enterprise',
+    title: 'Agent Fatigue Is a System Design Problem',
     description:
-      'How autonomous agents are reshaping enterprise workflows and what leaders need to know.',
-    url: 'https://journal.troopx.ai/posts/autonomous-agents-enterprise',
-    source: 'TroopX Journal',
-    date: 'June 2025',
+      'Steve Yegge\'s "AI Vampire" piece describes something real. Agent fatigue is not a model problem. It is a system design problem.',
+    url: 'https://blog.nik-patel.com/agent-fatigue-is-a-system-design-problem/',
+    source: 'Nik Patel',
+    date: 'Feb 2026',
     featured: true,
   },
   {
-    id: 'ai-agents-build-vs-buy',
+    id: 'reading-digest',
     type: 'blog',
-    title: 'The Economics of AI Agents: Build vs Buy',
+    title: 'Reading Digest: AI Agent Wrote a Hit Piece',
     description:
-      'A framework for deciding when to build custom AI agents versus using off-the-shelf solutions.',
-    url: 'https://journal.troopx.ai/posts/ai-agents-build-vs-buy',
+      'An AI agent wrote a hit piece on a developer who rejected its pull request. A new and genuinely alarming failure mode.',
+    url: 'https://journal.troopx.ai/reading-digest-2026-02-25/',
     source: 'TroopX Journal',
-    date: 'April 2025',
-  },
-  {
-    id: 'reliable-ai-pipelines',
-    type: 'blog',
-    title: 'Building Reliable AI Pipelines: A Production Guide',
-    description:
-      'Lessons from deploying AI pipelines that process millions of requests daily.',
-    url: 'https://journal.troopx.ai/posts/reliable-ai-pipelines',
-    source: 'TroopX Journal',
-    date: 'May 2025',
-  },
-  {
-    id: 'ai-dev-tools',
-    type: 'blog',
-    title: 'AI-Powered Dev Tools: My 2025 Stack',
-    description:
-      'A deep dive into the AI-powered development tools that have transformed our workflow.',
-    url: 'https://blog.nik-patel.com/posts/ai-dev-tools-2025',
-    source: 'Nik Patel',
-    date: 'May 2025',
+    date: 'Feb 2026',
   },
 
-  // Worth Reading (external)
+  // Worth Reading (all verified working)
   {
-    id: 'anthropic-long-running-agents',
+    id: 'anthropic-harness-design',
     type: 'worth-reading',
-    title: 'Long-Running Agents: The Next Step in AI',
+    title: 'Harness Design for Long-Running Application Development',
     description:
-      'Anthropic on building agents that operate over hours and days. Architecture patterns, failure recovery, and the infrastructure to support them.',
-    url: 'https://www.anthropic.com/engineering/long-running-agents',
+      'Anthropic on designing harnesses for agents that build real applications over extended sessions.',
+    url: 'https://www.anthropic.com/engineering/harness-design-long-running-apps',
     source: 'Anthropic',
-    date: '2025',
+    date: 'Mar 2026',
     featured: true,
+  },
+  {
+    id: 'anthropic-effective-harnesses',
+    type: 'worth-reading',
+    title: 'Effective Harnesses for Long-Running Agents',
+    description:
+      'Architecture patterns, failure recovery, and the infrastructure needed to support agents that operate over hours and days.',
+    url: 'https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents',
+    source: 'Anthropic',
+    date: 'Nov 2025',
   },
   {
     id: 'anthropic-building-effective-agents',
@@ -94,51 +84,41 @@ export const frontierItems: FrontierItem[] = [
       'Karpathy lays out his vision for how AI agents could automate the full cycle of scientific research.',
     url: 'https://karpathy.ai/blog/research.html',
     source: 'Andrej Karpathy',
-    date: 'March 2025',
+    date: 'Mar 2025',
     featured: true,
   },
   {
-    id: 'langchain-open-harness',
+    id: 'langchain-agent-harness',
     type: 'worth-reading',
-    title: 'Announcing Open Agent Harness',
+    title: 'The Anatomy of an Agent Harness',
     description:
-      'A new open-source framework for running large-scale agent evaluations reliably and reproducibly.',
-    url: 'https://blog.langchain.dev/announcing-open-agent-harness/',
+      'What agent harnesses are, how they connect LLMs to environments, and why they matter for production agents.',
+    url: 'https://blog.langchain.com/the-anatomy-of-an-agent-harness/',
     source: 'LangChain',
-    date: '2025',
+    date: '2026',
   },
   {
-    id: 'langchain-gtm-agents',
+    id: 'langchain-gtm-agent',
     type: 'worth-reading',
-    title: 'Real World GTM Agent Architectures',
+    title: 'How We Built LangChain\'s GTM Agent',
     description:
-      'How companies are building AI-powered GTM agents for lead enrichment, outbound personalization, and sales.',
-    url: 'https://blog.langchain.dev/real-world-gtm-agent-architectures/',
+      'LangChain built their own go-to-market agent. How it works, what it automates, and lessons from production.',
+    url: 'https://blog.langchain.com/how-we-built-langchains-gtm-agent/',
     source: 'LangChain',
-    date: '2025',
+    date: '2026',
   },
   {
     id: 'situational-awareness',
     type: 'worth-reading',
     title: 'Situational Awareness: The Decade Ahead',
     description:
-      'Leopold Aschenbrenner on AI systems surpassing human capability by 2028. The most important document in AI strategy right now.',
+      'Leopold Aschenbrenner on AI systems surpassing human capability by 2028. Essential reading for anyone making bets on AI.',
     url: 'https://situational-awareness.ai/',
     source: 'Leopold Aschenbrenner',
     date: '2024',
   },
-  {
-    id: 'situational-awareness-2025',
-    type: 'worth-reading',
-    title: 'Big Picture 2025: The State of AI',
-    description:
-      'Aschenbrenner\'s annual letter on where AI stands and where it is headed. Essential reading for anyone making bets on AI.',
-    url: 'https://situational-awareness.ai/big-picture-2025/',
-    source: 'Leopold Aschenbrenner',
-    date: 'April 2025',
-  },
 
-  // Utilities (coming soon placeholders)
+  // Utilities (coming soon)
   {
     id: 'competitive-research-agent',
     type: 'utility',

@@ -2,29 +2,29 @@
 
 /* Design System - Custom Properties */
 @theme {
-  /* Primary Colors (Blue) */
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbeafe;
-  --color-primary-200: #bfdbfe;
-  --color-primary-300: #93c5fd;
-  --color-primary-400: #60a5fa;
-  --color-primary-500: #3b82f6;
-  --color-primary-600: #2563eb;
-  --color-primary-700: #1d4ed8;
-  --color-primary-800: #1e40af;
-  --color-primary-900: #1e3a8a;
+  /* Primary Colors (Teal - from logo) */
+  --color-primary-50: #f3f6f7;
+  --color-primary-100: #e4eaed;
+  --color-primary-200: #c7d5db;
+  --color-primary-300: #a5bcc5;
+  --color-primary-400: #799aa9;
+  --color-primary-500: #205870;
+  --color-primary-600: #1c4f64;
+  --color-primary-700: #194659;
+  --color-primary-800: #143948;
+  --color-primary-900: #102c38;
 
-  /* Accent Colors (Orange) */
-  --color-accent-50: #fff7ed;
-  --color-accent-100: #ffedd5;
-  --color-accent-200: #fed7aa;
-  --color-accent-300: #fdba74;
-  --color-accent-400: #fb923c;
-  --color-accent-500: #f97316;
-  --color-accent-600: #ea580c;
-  --color-accent-700: #c2410c;
-  --color-accent-800: #9a3412;
-  --color-accent-900: #7c2d12;
+  /* Accent Colors (Deep Red - from logo) */
+  --color-accent-50: #f8f2f2;
+  --color-accent-100: #eee0e0;
+  --color-accent-200: #dcbfbf;
+  --color-accent-300: #c79999;
+  --color-accent-400: #ab6666;
+  --color-accent-500: #740000;
+  --color-accent-600: #680000;
+  --color-accent-700: #5c0000;
+  --color-accent-800: #4b0000;
+  --color-accent-900: #3a0000;
 
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -69,7 +69,7 @@
   }
 
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-500 to-primary-400 bg-clip-text text-transparent;
   }
 
   .section-padding {
