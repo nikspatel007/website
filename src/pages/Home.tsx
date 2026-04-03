@@ -42,26 +42,26 @@ const methodology = [
   },
 ]
 
-const whyAIFirst = [
+const whyCodeTicks = [
   {
-    title: 'AI-First, Not AI-Added',
+    title: 'We use AI agents to build AI agents.',
     description:
-      'We don\'t bolt AI onto existing systems. We rethink your workflows from the ground up with AI agents at the center.',
+      'Our own operations run on the same technology we sell. If it doesn\'t work for us, we won\'t ship it to you.',
   },
   {
-    title: 'Autonomous by Design',
+    title: 'Our clients have saved millions.',
     description:
-      'Our agents handle entire processes end-to-end — researching, deciding, executing, and reporting back without babysitting.',
+      'Real agents running in production, cutting real costs, replacing real manual work. Not proofs of concept.',
   },
   {
-    title: 'Production-Grade Reliability',
+    title: 'Production in weeks.',
     description:
-      'Every agent ships with monitoring, guardrails, fallbacks, and observability. Built for real business, not demos.',
+      'Most firms take months to deliver a PDF. We take weeks to deliver a running system.',
   },
   {
-    title: 'Your Data, Your Control',
+    title: 'Opinionated stack. Battle-tested.',
     description:
-      'We deploy on your infrastructure with your security requirements. SOC2, HIPAA, on-prem — we work within your constraints.',
+      'We\'ve tested every major framework and model in production. We know what works because we\'ve shipped it.',
   },
 ]
 
@@ -184,15 +184,12 @@ export function Home() {
                   Why CodeTicks
                 </span>
                 <h2 className="mt-4 text-3xl font-bold text-gray-900 lg:text-4xl">
-                  AI-First. Agent-First. Results-First.
+                  Why CodeTicks
                 </h2>
-                <p className="mt-4 text-lg text-gray-600">
-                  We don't build chatbots and call it AI. We build autonomous agents that actually replace manual work and deliver measurable business outcomes.
-                </p>
               </ScrollReveal>
 
               <div className="mt-8 space-y-6">
-                {whyAIFirst.map((item, index) => (
+                {whyCodeTicks.map((item, index) => (
                   <ScrollReveal key={item.title} delay={index * 0.1}>
                     <div className="flex gap-4">
                       <div className="flex-shrink-0">
