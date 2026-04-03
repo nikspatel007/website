@@ -77,9 +77,9 @@ export function Home() {
 
       {/* Hero */}
       <Hero
-        subtitle="AI-First Agent Development"
-        title="We Build AI Agents That Work For Your Business"
-        description="Autonomous AI agents that handle your workflows, qualify your leads, and operate 24/7. We don't just consult — we advise, align, build, and deliver production-ready AI."
+        subtitle="AI Consulting for Believers"
+        title="Value Delivered in Weeks."
+        description="CodeTicks Solutions builds and deploys autonomous AI agents that drive real business results. We advise, align, build, and deliver, turning complex workflows into intelligent systems that operate around the clock."
         primaryCTA={{ text: 'Schedule Consultation', href: '/contact' }}
         secondaryCTA={{ text: 'View Case Studies', href: '/case-studies' }}
         image="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
