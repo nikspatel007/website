@@ -79,7 +79,7 @@ export function Home() {
       <Hero
         subtitle="AI Consulting for Believers"
         title="Value Delivered in Weeks."
-        description="CodeTicks Solutions builds and deploys autonomous AI agents that drive real business results. We advise, align, build, and deliver, turning complex workflows into intelligent systems that operate around the clock."
+        description="CodeTicks Solutions builds and deploys autonomous AI agents that drive real business results. We advise, build, launch, and evolve, turning complex workflows into intelligent systems that operate around the clock."
         primaryCTA={{ text: 'Schedule Consultation', href: '/contact' }}
         secondaryCTA={{ text: 'View Case Studies', href: '/case-studies' }}
         image="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
@@ -285,9 +285,9 @@ export function Home() {
       {/* CTA Banner */}
       <CTABanner
         variant="gradient"
-        title="Ready to put AI agents to work?"
-        description="Schedule a free consultation. We'll map your workflows and show you exactly where AI agents can drive results."
-        primaryCTA={{ text: 'Schedule Consultation', href: '/contact' }}
+        title="Let's talk about what's possible."
+        description="Book a consultation and we'll show you where AI agents can drive real value for your business."
+        primaryCTA={{ text: 'Schedule a Meeting', href: '/contact' }}
         secondaryCTA={{ text: 'View Our Work', href: '/case-studies' }}
       />
     </>
